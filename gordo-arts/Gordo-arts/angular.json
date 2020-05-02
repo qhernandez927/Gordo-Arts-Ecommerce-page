@@ -118,8 +118,13 @@
               "devServerTarget": "Gordo-arts:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "Gordo-arts"
 }
