@@ -1,6 +1,6 @@
 export interface ISticker {
     id: number,
-    descriptiion: string,
+    description: string,
     price: number,
     imgPath: string
 }

@@ -1,1 +1,4 @@
-<p>shopping-cart-component works!</p>
+<p *ngIf="shoppingCartItems$|async as items">
+        You have {{items.length}} items in your bag
+</p>
+<sticker *ngFor="let sticker of shoppingCartItems$|async" [sticker]="sticker"></sticker>  

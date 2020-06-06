@@ -2,7 +2,7 @@ import { ISticker } from "./isticker";
 
 export class Sticker implements ISticker {
     id: number;
-    descriptiion: string;
+    description: string;
     price: number;
     imgPath: string;
 }
