@@ -1,4 +1,6 @@
-<p *ngIf="shoppingCartItems$|async as items">
-        You have {{items.length}} items in your bag
-</p>
-<sticker *ngFor="let sticker of shoppingCartItems$|async" [sticker]="sticker"></sticker>  
+<div *ngIf="shoppingCartItems$|async as stickers">
+        You have {{stickers.length}} items in your bag
+<sticker *ngFor="let sticker of stickers" 
+        [sticker]="sticker">
+</sticker>  
+</div>

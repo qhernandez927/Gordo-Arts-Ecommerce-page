@@ -28,6 +28,7 @@ export class CartService {
 
    public getItems(): Observable<ISticker[]> {
     return this.itemsInCartSubject.asObservable();
+    
    }
 
    public getTotalAmount(): Observable<number> {
